@@ -9,6 +9,6 @@ jobs:
       - uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{secrets.PERSONAL_TOKEN}}
-          type-event: MyEvent
+          event-types: MyEvent
           client-payload: '{"test":"MonTest"}'
 
