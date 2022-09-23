@@ -1,7 +1,7 @@
 name: triggered Worflow
 
 on:
-  repository-dispatch: 
+  repository_dispatch: 
     types: [MyEvent]
 jobs:
   print_payload:
